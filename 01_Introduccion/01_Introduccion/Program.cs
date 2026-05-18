@@ -137,7 +137,10 @@ Linea 4");
             Console.ResetColor();
             Console.WriteLine();
 
-
+            //Hacer una pausa con tiempo
+            Console.WriteLine("Pausa por dos segundos...");
+            Thread.Sleep(2000); //tiempo en milisegundos
+            Console.WriteLine("La pausa ha terminado.");
         }
     }
 }

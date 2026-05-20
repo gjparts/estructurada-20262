@@ -94,6 +94,75 @@
             //int se utiliza para definir variable que almacenan
             //un numero entero de 4 bytes o sea 32 bit.
             //2 elevado a la 31 = 21,47,483,648
+
+            //tipos de datos para almacenar numeros decimales:
+            //float: guarda numeros con decimales de 4 bytes (32 bit)(decimal de baja precision)
+            //double: guarda numeros con decimales de 8 bytes (64 bit)(decimal de alta precision)
+            float salario = 14230.45f;
+            //observe que al final del valor para float debe usarse el caracter f
+            float pesoPersona = 175.2F;
+            //la f tambien puede ser mayuscula
+            //Use el tipo float cuando no necesite guardar valores que lleven muchos decimales
+            //como por ejemplo dinero, pesos
+
+            double distancia = 40100122345.2344354346234;
+            //cuando necesite mucgos decimales y almacenar valores grandes
+            //use el tipo double. Este no necesita ningun caracter especial al final.
+            double valorPi = 3.141592653589793;
+            //double se usa en calculos de tipo cientifico
+
+            //tipo de dato Long
+            //se usa para almacenar numeros enteros de alta precision (8 bytes, 64 bit)
+            long enteroLArgo = 1234123412345L;
+            //en tipos Long se recomienda colocar una L mayuscula al final.
+
+            //tipo de dato char: almacena un caracter
+            //mide 1 byte (8 bit)
+            char c1 = 'x';
+
+            //la comilla simple se puede obtener
+            //presionando la combinacion ALT+39
+
+            char c2 = '4';
+            char c3 = ' ';
+            char c4 = '\\'; //slash inverso como char
+            char c5 = '"'; //comilla doble
+            char c6 = '\''; //comilla simple
+            //char solo permite cuardar un caracter.
+            //excepto cuando se usa caracter de escape \
+
+            //char c7 = '';
+            //char debe llevar al menos un caracter dentro de las comillas
+
+            //tipo de dato boolean: guarda true o false (1 bit)
+            //se llama asi en honor del matematico George Boole
+            //true almacena 1
+            //false almacena 0
+            bool respuesta = true;
+            bool opcion = false;
+
+            //formas de imprimir el valor de una variable
+            //en C#
+
+            //forma 1: concatenar la variable
+            Console.WriteLine("El valor de salario es "+salario);
+            Console.WriteLine("El valor de respuesta es "+respuesta);
+            Console.WriteLine("El valor de c4 es "+c4);
+            Console.WriteLine("El valor de pesoPersona es "+pesoPersona);
+
+            //forma 2: usando interpolacion de string
+            Console.WriteLine($"El valor de salario es {salario}");
+            Console.WriteLine($"El valor de respuesta es {respuesta}");
+            Console.WriteLine($"El valor de c4 es {c4}");
+            Console.WriteLine($"El valor de pesoPersona es {pesoPersona}");
+
+            //interpolar facilita el trabajo cuando quiero desplegar
+            //muchas variables:
+            int x = 3, y = 9;
+            //concatenar:
+            Console.WriteLine("El valor de x es "+x+", el valor de y es "+y);
+            //interpolar:
+            Console.WriteLine($"El valor de x es {x}, el valor de y es {y}");
         }
     }
 }

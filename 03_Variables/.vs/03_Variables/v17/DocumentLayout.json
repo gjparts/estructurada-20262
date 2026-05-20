@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "P:\\Programas UNAH\\2026-2\\Programacion Estructurada\\03_Variables\\",
+  "WorkspaceRootPath": "C:\\Programas UNAH\\2026-2\\Programacion Estructurada\\03_Variables\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6F7BF72-2985-43B3-9A01-4B72A06C1C62}|03_Variables\\03_Variables.csproj|p:\\programas unah\\2026-2\\programacion estructurada\\03_variables\\03_variables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6F7BF72-2985-43B3-9A01-4B72A06C1C62}|03_Variables\\03_Variables.csproj|c:\\programas unah\\2026-2\\programacion estructurada\\03_variables\\03_variables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6F7BF72-2985-43B3-9A01-4B72A06C1C62}|03_Variables\\03_Variables.csproj|solutionrelative:03_variables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "P:\\Programas UNAH\\2026-2\\Programacion Estructurada\\03_Variables\\03_Variables\\Program.cs",
+              "DocumentMoniker": "C:\\Programas UNAH\\2026-2\\Programacion Estructurada\\03_Variables\\03_Variables\\Program.cs",
               "RelativeDocumentMoniker": "03_Variables\\Program.cs",
-              "ToolTip": "P:\\Programas UNAH\\2026-2\\Programacion Estructurada\\03_Variables\\03_Variables\\Program.cs",
+              "ToolTip": "C:\\Programas UNAH\\2026-2\\Programacion Estructurada\\03_Variables\\03_Variables\\Program.cs",
               "RelativeToolTip": "03_Variables\\Program.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAJsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-19T16:05:43.254Z",
               "EditorCaption": ""

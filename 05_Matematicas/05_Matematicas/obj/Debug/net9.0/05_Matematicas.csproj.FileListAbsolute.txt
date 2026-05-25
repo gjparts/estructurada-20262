@@ -1,0 +1,15 @@
+C:\Programas UNAH\2026-2\Programacion Estructurada\05_Matematicas\05_Matematicas\bin\Debug\net9.0\05_Matematicas.exe
+C:\Programas UNAH\2026-2\Programacion Estructurada\05_Matematicas\05_Matematicas\bin\Debug\net9.0\05_Matematicas.deps.json
+C:\Programas UNAH\2026-2\Programacion Estructurada\05_Matematicas\05_Matematicas\bin\Debug\net9.0\05_Matematicas.runtimeconfig.json
+C:\Programas UNAH\2026-2\Programacion Estructurada\05_Matematicas\05_Matematicas\bin\Debug\net9.0\05_Matematicas.dll
+C:\Programas UNAH\2026-2\Programacion Estructurada\05_Matematicas\05_Matematicas\bin\Debug\net9.0\05_Matematicas.pdb
+C:\Programas UNAH\2026-2\Programacion Estructurada\05_Matematicas\05_Matematicas\obj\Debug\net9.0\05_Matematicas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programas UNAH\2026-2\Programacion Estructurada\05_Matematicas\05_Matematicas\obj\Debug\net9.0\05_Matematicas.AssemblyInfoInputs.cache
+C:\Programas UNAH\2026-2\Programacion Estructurada\05_Matematicas\05_Matematicas\obj\Debug\net9.0\05_Matematicas.AssemblyInfo.cs
+C:\Programas UNAH\2026-2\Programacion Estructurada\05_Matematicas\05_Matematicas\obj\Debug\net9.0\05_Matematicas.csproj.CoreCompileInputs.cache
+C:\Programas UNAH\2026-2\Programacion Estructurada\05_Matematicas\05_Matematicas\obj\Debug\net9.0\05_Matematicas.sourcelink.json
+C:\Programas UNAH\2026-2\Programacion Estructurada\05_Matematicas\05_Matematicas\obj\Debug\net9.0\05_Matematicas.dll
+C:\Programas UNAH\2026-2\Programacion Estructurada\05_Matematicas\05_Matematicas\obj\Debug\net9.0\refint\05_Matematicas.dll
+C:\Programas UNAH\2026-2\Programacion Estructurada\05_Matematicas\05_Matematicas\obj\Debug\net9.0\05_Matematicas.pdb
+C:\Programas UNAH\2026-2\Programacion Estructurada\05_Matematicas\05_Matematicas\obj\Debug\net9.0\05_Matematicas.genruntimeconfig.cache
+C:\Programas UNAH\2026-2\Programacion Estructurada\05_Matematicas\05_Matematicas\obj\Debug\net9.0\ref\05_Matematicas.dll

@@ -163,6 +163,19 @@
             Console.WriteLine("El valor de x es "+x+", el valor de y es "+y);
             //interpolar:
             Console.WriteLine($"El valor de x es {x}, el valor de y es {y}");
+
+            //uso de elementos char en la concatenacion
+            char ch1 = 'A', ch2 = 'B';
+            Console.WriteLine(ch1);
+            Console.WriteLine(ch2);
+            //lo siguiente imprime la suma de los valores
+            //numericos del caracter A mas B (A vale 65, B vale 66 en la tabla ASCII)
+            Console.WriteLine(ch1+ch2);
+            //para evitar lo anterior puede hacer lo siguiente:
+            Console.WriteLine(""+ch1+ch2);
+            //para conocer el valor numerico de una variable char:
+            Console.WriteLine(0+ch1);
+            Console.WriteLine(0+ch2);
         }
     }
 }

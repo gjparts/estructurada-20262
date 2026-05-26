@@ -50,6 +50,69 @@
             double raiz = Math.Sqrt(valor4);
             Console.WriteLine($"La raiz cuadrada de {valor4} es {raiz}");
 
+            //Metodo Round: redondea un numero a los decimales que definamos
+            double a = 3.32, b = 7.5, c = 4.00005, d = 6.0, e = 2.865673462;
+            
+            //Redondeo a entero (cero decimales)
+            Console.WriteLine($"Round de {a} es {Math.Round(a)}");
+            Console.WriteLine($"Round de {b} es {Math.Round(b)}");
+            Console.WriteLine($"Round de {c} es {Math.Round(c)}");
+            Console.WriteLine($"Round de {d} es {Math.Round(d)}");
+            Console.WriteLine($"Round de {e} es {Math.Round(e)}");
+
+            //Round tiene un segundo parametro que el opcional
+            //este permite definir a cuantos decimales vamos a redondear.
+            //redonde a dos decimales:
+            Console.WriteLine($"Round a dos decimales de {a} es {Math.Round(a,2)}");
+            Console.WriteLine($"Round a dos decimales de {b} es {Math.Round(b,2)}");
+            Console.WriteLine($"Round a dos decimales de {c} es {Math.Round(c,2)}");
+            Console.WriteLine($"Round a dos decimales de {d} es {Math.Round(d,2)}");
+            Console.WriteLine($"Round a dos decimales de {e} es {Math.Round(e,2)}");
+
+            //Metodo Ceiling: devuelve el numero entero superior al valor
+            //enviado siempre y cuando halla una parte decimal no importa
+            //que esta sea pequeña (redondeo forzado)
+            Console.WriteLine($"Ceiling de {a} es {Math.Ceiling(a)}");
+            Console.WriteLine($"Ceiling de {b} es {Math.Ceiling(b)}");
+            Console.WriteLine($"Ceiling de {c} es {Math.Ceiling(c)}");
+            Console.WriteLine($"Ceiling de {d} es {Math.Ceiling(d)}");
+            Console.WriteLine($"Ceiling de {e} es {Math.Ceiling(e)}");
+
+            //Metodo Floor: devuelve la parte entera de cualquier numero
+            //Floor no redondea.
+            Console.WriteLine($"Floor de {a} es {Math.Floor(a)}");
+            Console.WriteLine($"Floor de {b} es {Math.Floor(b)}");
+            Console.WriteLine($"Floor de {c} es {Math.Floor(c)}");
+            Console.WriteLine($"Floor de {d} es {Math.Floor(d)}");
+            Console.WriteLine($"Floor de {e} es {Math.Floor(e)}");
+
+            //Como obtengo cuantos decimales tiene la variable a?
+            Console.WriteLine($"La parte decimal de {a} es {Math.Round(a-Math.Floor(a),2)}");
+
+            //ejercicios planteados en la pizarra
+            double x = 4, y = 9, z = 3;
+            Console.WriteLine($"resultado: {Math.Sqrt(x/(y-z))}");
+            //que pasaria si dentro de la raiz cuadrada
+            //quedara un numero negativo?
+            x = 5;
+            y = 3;
+            z = 9;
+            Console.WriteLine($"resultado: {Math.Sqrt(x / (y - z))}");
+            //el calculo anterior pretende sacar una raiz
+            //cuadrada de un valor negativo
+            //esto produce como resultado NaN que
+            //quiere decir: Not a Number (no es un numero)
+            //por lo tanto no tiene solucion dentro de los numeros reales.
+
+            //que pasaria si el denominador de la division es CERO?
+            x = 125.4;
+            y = 5;
+            z = 5;
+            Console.WriteLine($"resultado: {Math.Sqrt(x / (y - z))}");
+            //esto dara como resultado INFINITO porque todo numero
+            //dividido entre CERO es INFINITO, solo que en algunas
+            //computadoras el signo de infinito es un 8, en otras
+            //es un 8 acostado, en otros lenguajes sale Inf o Infinite.
 
         }
     }

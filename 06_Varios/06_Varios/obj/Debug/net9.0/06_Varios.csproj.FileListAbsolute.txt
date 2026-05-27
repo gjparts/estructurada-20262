@@ -1,0 +1,15 @@
+P:\Programas UNAH\2026-2\Programacion Estructurada\06_Varios\06_Varios\bin\Debug\net9.0\06_Varios.exe
+P:\Programas UNAH\2026-2\Programacion Estructurada\06_Varios\06_Varios\bin\Debug\net9.0\06_Varios.deps.json
+P:\Programas UNAH\2026-2\Programacion Estructurada\06_Varios\06_Varios\bin\Debug\net9.0\06_Varios.runtimeconfig.json
+P:\Programas UNAH\2026-2\Programacion Estructurada\06_Varios\06_Varios\bin\Debug\net9.0\06_Varios.dll
+P:\Programas UNAH\2026-2\Programacion Estructurada\06_Varios\06_Varios\bin\Debug\net9.0\06_Varios.pdb
+P:\Programas UNAH\2026-2\Programacion Estructurada\06_Varios\06_Varios\obj\Debug\net9.0\06_Varios.GeneratedMSBuildEditorConfig.editorconfig
+P:\Programas UNAH\2026-2\Programacion Estructurada\06_Varios\06_Varios\obj\Debug\net9.0\06_Varios.AssemblyInfoInputs.cache
+P:\Programas UNAH\2026-2\Programacion Estructurada\06_Varios\06_Varios\obj\Debug\net9.0\06_Varios.AssemblyInfo.cs
+P:\Programas UNAH\2026-2\Programacion Estructurada\06_Varios\06_Varios\obj\Debug\net9.0\06_Varios.csproj.CoreCompileInputs.cache
+P:\Programas UNAH\2026-2\Programacion Estructurada\06_Varios\06_Varios\obj\Debug\net9.0\06_Varios.sourcelink.json
+P:\Programas UNAH\2026-2\Programacion Estructurada\06_Varios\06_Varios\obj\Debug\net9.0\06_Varios.dll
+P:\Programas UNAH\2026-2\Programacion Estructurada\06_Varios\06_Varios\obj\Debug\net9.0\refint\06_Varios.dll
+P:\Programas UNAH\2026-2\Programacion Estructurada\06_Varios\06_Varios\obj\Debug\net9.0\06_Varios.pdb
+P:\Programas UNAH\2026-2\Programacion Estructurada\06_Varios\06_Varios\obj\Debug\net9.0\06_Varios.genruntimeconfig.cache
+P:\Programas UNAH\2026-2\Programacion Estructurada\06_Varios\06_Varios\obj\Debug\net9.0\ref\06_Varios.dll

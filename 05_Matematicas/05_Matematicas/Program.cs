@@ -113,7 +113,6 @@
             //dividido entre CERO es INFINITO, solo que en algunas
             //computadoras el signo de infinito es un 8, en otras
             //es un 8 acostado, en otros lenguajes sale Inf o Infinite.
-
         }
     }
 }

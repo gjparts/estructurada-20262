@@ -26,7 +26,7 @@
                 denominador = Math.Pow(c - d, 2);
                 resultado = Math.Round(numerador / denominador, 2);
                 Console.WriteLine(resultado);
-
+                
 
             }
             catch (Exception ex)

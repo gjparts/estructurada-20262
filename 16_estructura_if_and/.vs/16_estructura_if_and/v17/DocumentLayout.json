@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Programas UNAH\\2026-2\\Programacion Estructurada\\16_estructura_if_and\\",
+  "WorkspaceRootPath": "P:\\Programas UNAH\\2026-2\\Programacion Estructurada\\16_estructura_if_and\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A15ED4B5-2D3D-4917-9E5B-7C587066C4EB}|16_estructura_if_and\\16_estructura_if_and.csproj|c:\\programas unah\\2026-2\\programacion estructurada\\16_estructura_if_and\\16_estructura_if_and\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A15ED4B5-2D3D-4917-9E5B-7C587066C4EB}|16_estructura_if_and\\16_estructura_if_and.csproj|p:\\programas unah\\2026-2\\programacion estructurada\\16_estructura_if_and\\16_estructura_if_and\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A15ED4B5-2D3D-4917-9E5B-7C587066C4EB}|16_estructura_if_and\\16_estructura_if_and.csproj|solutionrelative:16_estructura_if_and\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,21 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Programas UNAH\\2026-2\\Programacion Estructurada\\16_estructura_if_and\\16_estructura_if_and\\Program.cs",
+              "DocumentMoniker": "P:\\Programas UNAH\\2026-2\\Programacion Estructurada\\16_estructura_if_and\\16_estructura_if_and\\Program.cs",
               "RelativeDocumentMoniker": "16_estructura_if_and\\Program.cs",
-              "ToolTip": "C:\\Programas UNAH\\2026-2\\Programacion Estructurada\\16_estructura_if_and\\16_estructura_if_and\\Program.cs",
+              "ToolTip": "P:\\Programas UNAH\\2026-2\\Programacion Estructurada\\16_estructura_if_and\\16_estructura_if_and\\Program.cs",
               "RelativeToolTip": "16_estructura_if_and\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-03T16:45:24.924Z",
               "EditorCaption": ""

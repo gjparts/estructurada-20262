@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "21_estructura_if_or_and/1.0.0": {
+        "runtime": {
+          "21_estructura_if_or_and.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "21_estructura_if_or_and/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

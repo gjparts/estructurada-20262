@@ -37,6 +37,7 @@
                         Console.WriteLine("Five");
                         break;
                     default:
+                        //Este caso se ejecuta si no se cumple ninguno de los casos planteados
                         Console.WriteLine("Numero desconocido");
                         break;
                 }

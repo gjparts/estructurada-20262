@@ -1,0 +1,15 @@
+C:\Programas UNAH\2026-2\Programacion Estructurada\26_for\26_for\bin\Debug\net9.0\26_for.exe
+C:\Programas UNAH\2026-2\Programacion Estructurada\26_for\26_for\bin\Debug\net9.0\26_for.deps.json
+C:\Programas UNAH\2026-2\Programacion Estructurada\26_for\26_for\bin\Debug\net9.0\26_for.runtimeconfig.json
+C:\Programas UNAH\2026-2\Programacion Estructurada\26_for\26_for\bin\Debug\net9.0\26_for.dll
+C:\Programas UNAH\2026-2\Programacion Estructurada\26_for\26_for\bin\Debug\net9.0\26_for.pdb
+C:\Programas UNAH\2026-2\Programacion Estructurada\26_for\26_for\obj\Debug\net9.0\26_for.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programas UNAH\2026-2\Programacion Estructurada\26_for\26_for\obj\Debug\net9.0\26_for.AssemblyInfoInputs.cache
+C:\Programas UNAH\2026-2\Programacion Estructurada\26_for\26_for\obj\Debug\net9.0\26_for.AssemblyInfo.cs
+C:\Programas UNAH\2026-2\Programacion Estructurada\26_for\26_for\obj\Debug\net9.0\26_for.csproj.CoreCompileInputs.cache
+C:\Programas UNAH\2026-2\Programacion Estructurada\26_for\26_for\obj\Debug\net9.0\26_for.sourcelink.json
+C:\Programas UNAH\2026-2\Programacion Estructurada\26_for\26_for\obj\Debug\net9.0\26_for.dll
+C:\Programas UNAH\2026-2\Programacion Estructurada\26_for\26_for\obj\Debug\net9.0\refint\26_for.dll
+C:\Programas UNAH\2026-2\Programacion Estructurada\26_for\26_for\obj\Debug\net9.0\26_for.pdb
+C:\Programas UNAH\2026-2\Programacion Estructurada\26_for\26_for\obj\Debug\net9.0\26_for.genruntimeconfig.cache
+C:\Programas UNAH\2026-2\Programacion Estructurada\26_for\26_for\obj\Debug\net9.0\ref\26_for.dll

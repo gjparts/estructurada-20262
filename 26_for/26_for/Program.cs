@@ -95,6 +95,88 @@
                 Console.WriteLine(i);
             Console.ResetColor();
 
+            //3) Imprimir los numeros del 0 al 50 de cinco en cinco
+            //suma tradicional (11 iteraciones)
+            Console.WriteLine("-------------------------");
+            for (int i = 0; i <= 50; i = i + 5)
+                Console.WriteLine(i);
+
+            //usando operador de incremento (11 iteraciones)
+            Console.WriteLine("-------------------------");
+            for (int i = 0; i <= 50; i+=5)
+                Console.WriteLine(i);
+
+            //mas largo y menos eficiente (51 iteraciones)
+            Console.WriteLine("-------------------------");
+            for (int i = 0; i <= 50; i++)
+                if(i%5 == 0)
+                    Console.WriteLine(i);
+
+            //4) Recorrer los numeros del 1 al 50 pero solo imprima los impares
+            //50 iteraciones
+            Console.WriteLine("-------------------------");
+            for(int i = 1; i <= 50; i++)
+                if(i%2 == 1)
+                    Console.WriteLine(i);
+
+            //5) Imprima los numeros del 1 al 100, coloque un asterisco
+            //a la derecha de cada numero que sea multiplo de 10
+            Console.WriteLine("-------------------------");
+            for(int i = 1; i <= 100; i++)
+            {
+                if (i % 10 == 0)
+                    Console.WriteLine($"{i}*");
+                else
+                    Console.WriteLine(i);
+            }
+
+            Console.WriteLine("-------------------------");
+            for (int i = 1; i <= 100; i++)
+            {
+                Console.Write(i);
+                if(i%10==0) Console.Write("*");
+                Console.WriteLine();
+            }
+
+            //puede hacer tambien usando algo conocido como OPERADOR TERNARIO
+            Console.WriteLine("-------------------------");
+            for (int i = 1; i <= 100; i++)
+                Console.WriteLine($"{i}{( i%10 == 0 ? "*" : "" )}");
+
+            //Mas ejemplos de operador ternario
+            bool pagaImpuesto = true;
+            float total = 100;
+            Console.WriteLine($"El total es: {total}");
+            Console.WriteLine($"El valor a pagar es: {(pagaImpuesto == true ? total*1.15 : total)}");
+
+            int a = 8, b = 15;
+            Console.WriteLine($"El mayor es: {(a >= b ? a : b)}");
+
+            //6) Imprima los numeros del 10 al 1, de 1 en 1 de forma descendente.
+            Console.WriteLine("-------------------------");
+            for(int i = 10; i >= 1; i--)
+                Console.WriteLine(i);
+
+            /*Operadores de decremento:
+             i--    es lo mismo que decir i = i - 1
+             i-=2   es lo mismo que decir i = i - 2*/
+
+            //7) Imprima los numeros del 100 al 0, de 10 en 10 de forma descendente
+            Console.WriteLine("-------------------------");
+            for (int i = 100; i >= 0; i-=10)
+                Console.WriteLine(i);
+
+            //soluciona, solo que un poco mas confuso
+            Console.WriteLine("-------------------------");
+            for (int i = 100; i > -1; i -= 10)
+                Console.WriteLine(i);
+
+            /*La estructura for tambien funciona con otros tipos de datos numericos
+             por ejemplo:
+            Imprima los numeros del 0 al 6 de 0.25 en 0.25 ascendente*/
+            Console.WriteLine("-------------------------");
+            for (double i = 0; i <= 5; i+=0.25)
+                Console.WriteLine(i);
 
         }
     }

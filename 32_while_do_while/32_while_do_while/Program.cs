@@ -52,6 +52,34 @@
             //la estructura do-while SIEMPRE va a hacer la primera iteracion.
             //ya que hace primero, pregunta despues.
 
+
+            /*Haga un programa que pregunte al usuario N cantidad
+             de numeros positivos. El programa va a terminar cuando se digite un
+            numero negativo.*/
+            //usando while:
+            double num = 0;
+            while(num >= 0)
+            {
+                Console.Write("Escriba un numero positivo:");
+                num = double.Parse(Console.ReadLine());
+            }
+            /*Observe que en el caso de while la variable de control
+             debe inicializar con un valor tal que ingrese a la
+            estructura while al menos una vez.
+            En este ejemplo la variable de control es alterada
+            por el propio usuario.*/
+
+            //usando do-while
+            float cifra;
+            do
+            {
+                Console.Write("Escriba una cifra positiva:");
+                cifra = float.Parse(Console.ReadLine());
+            } while (cifra >= 0);
+            /*Note que cuando usa do-while no es necesario inicializar
+             la variable de control puesto que esta estructura
+            siempre hace al menos una iteracion y es donde inicializamos
+            la variable de control al preguntarsela al usuario.*/
         }
     }
 }

@@ -64,12 +64,15 @@
                             b = double.Parse(Console.ReadLine());
                             Console.WriteLine($"La suma es {a+b}");
                             break;
+                        case 6:
+                            Console.WriteLine("Adios");
+                            break;
                         default:
                             Console.WriteLine("Opcion no valida");
                             break;
                     }
-                    Console.ReadKey(false);//hacer una pausa
                     Console.WriteLine("Presiona cualquier tecla para volver al menu.");
+                    Console.ReadKey(false);//hacer una pausa
                 }
                 catch (Exception ex)
                 {

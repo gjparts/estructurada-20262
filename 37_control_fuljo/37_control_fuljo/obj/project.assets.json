@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programas UNAH\\2026-2\\Programacion Estructurada\\37_control_fuljo\\37_control_fuljo\\37_control_fuljo.csproj",
-      "projectName": "37_control_fuljo",
-      "projectPath": "C:\\Programas UNAH\\2026-2\\Programacion Estructurada\\37_control_fuljo\\37_control_fuljo\\37_control_fuljo.csproj",
+      "projectUniqueName": "C:\\Programas UNAH\\2026-2\\Programacion Estructurada\\37_control_fuljo\\37_control_fuljo\\37_control_flujo.csproj",
+      "projectName": "37_control_flujo",
+      "projectPath": "C:\\Programas UNAH\\2026-2\\Programacion Estructurada\\37_control_fuljo\\37_control_fuljo\\37_control_flujo.csproj",
       "packagesPath": "C:\\Users\\Gerardo\\.nuget\\packages\\",
       "outputPath": "C:\\Programas UNAH\\2026-2\\Programacion Estructurada\\37_control_fuljo\\37_control_fuljo\\obj\\",
       "projectStyle": "PackageReference",

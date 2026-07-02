@@ -63,7 +63,69 @@
             //Console.WriteLine(arreglo1[5]);
 
             //escribir manualmente valores a un arreglo:
+            arreglo1[3] = 100;
+            arreglo1[1] = 777;
+            arreglo1[4] = -20;
 
+            //recorrer e imprimir el contenido de un arreglo usando for
+            for(int i = 0; i < arreglo1.Length; i++)
+            {
+                Console.WriteLine($"Posicion: {i}, Valor: {arreglo1[i]}");
+            }
+
+            //hacer un nuevo arreglo unidimencional de numeros double de 10 elementos
+            //y llenelo con numeros al azar entre 1 y 100, al final imprima el contenido
+            //del arreglo.
+            double[] arreglo2 = new double[10];
+            Random r = new Random();
+            for(int i = 0;i < arreglo2.Length; i++)
+            {
+                //asignar valor al i-esimo elemento
+                arreglo2[i] = r.Next(1,101);
+                Console.WriteLine(arreglo2[i]);
+            }
+
+            /*en C# existe otros metodos para imprimir arreglos.
+             Uno de los mas conocidos es el uso de la estructura
+            de repeticin foreach.
+            Si Usted decide usar foreach para imprimir un arreglo
+            no tendrá acceso al indice o sea la posicion de cada elemento
+            y tampoco podrá escribir el elemento en el arreglo.*/
+            Console.WriteLine("imprimir arreglo2 usando foreach: ---------");
+            foreach(double valor in arreglo2)
+            {
+                //valor = r.Next(1, 101); //foreach no permite escribir el arreglo
+                Console.WriteLine(valor);
+            }
+
+            Console.WriteLine($"Primer elemento de arreglo2 es: {arreglo2[0]}");
+            Console.WriteLine($"Ultimo elemento de arreglo2 es: {arreglo2[9]}");
+            Console.WriteLine($"Ultimo elemento de arreglo2 es: {arreglo2[arreglo2.Length-1]}");
+
+            //en C# los arreglos tienen metodos como por ejemplo para saber
+            //cuales son los valores maximo y minimo dentro de ellos.
+            Console.WriteLine($"El valor mayor en arreglo2 es: {arreglo2.Max()}");
+            Console.WriteLine($"El valor menor en arreglo2 es: {arreglo2.Min()}");
+
+            /*Haga un arreglo unidimensional de numeros double de 20 elementos.
+            llene dicho arreglo con numeros al azar entre 5 y 65; pero elevado
+            al cuadrado.
+            Para los elementos cuyo indice es multiplo de 5 el valor a colocar
+            va a ser el valor de PI.
+            Por ultimo imprima dicho arreglo, asi como el valor mayor y menor dentro
+            del mismo.*/
+            double[] arreglo3 = new double[20];
+            for(int i = 0; i < arreglo3.Length; i++)
+            {
+                if (i % 5 == 0)
+                    arreglo3[i] = Math.PI;
+                else
+                    arreglo3[i] = Math.Pow(r.Next(5, 66), 2);
+
+                Console.WriteLine(arreglo3[i]);
+            }
+            Console.WriteLine($"El mayor es: {arreglo3.Max()}");
+            Console.WriteLine($"El menor es: {arreglo3.Min()}");
         }
     }
 }

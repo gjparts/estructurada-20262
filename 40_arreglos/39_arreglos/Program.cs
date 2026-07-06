@@ -126,6 +126,40 @@
             }
             Console.WriteLine($"El mayor es: {arreglo3.Max()}");
             Console.WriteLine($"El menor es: {arreglo3.Min()}");
+
+            //3) Declarar e inicializar el arreglo prellenado con datos
+            int[] arreglo4 = { 600, -123, 100, 0, 4, 8, 0, 90 };
+            //imprimir el arreglo:
+            Console.WriteLine("**********************************");
+            for (int i = 0; i < arreglo4.Length; i++)
+            {
+                Console.WriteLine(arreglo4[i]);
+            }
+            Console.WriteLine($"Tamaño de arreglo4: {arreglo4.Length}");
+
+            //Aplicar orden ascendente a un arreglo
+            float[] arreglo5 = { 2.35f, 7.6f, 8, 3.1416f, -40.2f, -.00012f, 100 };
+            Array.Sort(arreglo5);
+            //Importante: este metodo afecta al arreglo de forma permanente
+
+            Console.WriteLine("**********************************");
+            foreach(float item  in arreglo5)
+            {
+                Console.WriteLine(item);
+            }
+
+            //Aplicar order descendente a un arreglo
+            double[] arreglo6 = { 1.7, 3.45567, 0.00001, -5.6, -8, 200, 0, -1.1 };
+            //Importante: para poder hacer orden descendente primero
+            //debera hacer ordenamiento ascendente:
+            Array.Sort(arreglo6);
+            Array.Reverse(arreglo6); //aqui es donde invertimos el orden
+            //imprimir:
+            Console.WriteLine("-----------------------");
+            for (int i = 0; i < arreglo6.Length; i++)
+            {
+                Console.WriteLine(arreglo6[i]);
+            }
         }
     }
 }

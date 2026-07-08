@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("42_conversion_implicita_explicita")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2da71da2f0e1c66490899638936c10fa17340b78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0f4e96459c0d5416c5a852911e93bd48c97073a")]
 [assembly: System.Reflection.AssemblyProductAttribute("42_conversion_implicita_explicita")]
 [assembly: System.Reflection.AssemblyTitleAttribute("42_conversion_implicita_explicita")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -129,6 +129,104 @@
                 Console.WriteLine(platillo[i]);
             }
 
+            /*en C# no se posible cambiar el valor de un elemento char
+             que esta dentro de un String mediante el uso de corchetes*/
+            //platillo[0] = 'X';
+
+            //Transformaciones de String
+            /*
+            Metodo ToUpper()
+            Devuelve una version en mayusculas del String
+            Metodo ToLower()
+            Devuelve una version en minusculas del String
+            
+            -> Un metodo que devuelve un version de la variable
+               en realidad lo que devuelve es una copia con la transformacion
+               realizada, o sea no afecta a la variable original.
+             */
+            string ciudad = "San Pedro Sula";
+            Console.WriteLine($"ciudad en mayusculas: {ciudad.ToUpper()}");
+            Console.WriteLine($"ciudad en minusculas: {ciudad.ToLower()}");
+            Console.WriteLine($"ciudad (variable original): {ciudad}");
+
+            //que pasaria si quiere alterar la variable original?
+            //por ejemplo que ciudad quede definitivamente en mayusculas?
+            ciudad = ciudad.ToUpper(); //sobreescribir la variable original
+            Console.WriteLine($"ciudad (variable original): {ciudad}");
+
+            /*Metodo Trim()
+            Devuelve una copia del String a la cual se ha removido los
+            espacios en blanco iniciales y finales mas conocidos como
+            espacios de relleno.*/
+            string persona = "          Gerardo Portillo        ";
+            Console.WriteLine($"persona (original): *{persona}*");
+            Console.WriteLine($"Longitud de persona (original): {persona.Length}");
+            //usando Trim
+            Console.WriteLine($"persona (Trim): *{persona.Trim()}*");
+            Console.WriteLine($"Longitud de persona (Trim): {persona.Trim().Length}");
+            //se habra afectado la variable original?
+            Console.WriteLine($"persona (original): *{persona}*");
+            Console.WriteLine($"Longitud de persona (original): {persona.Length}");
+            //observe que la varaible original no ha sido alterada
+
+            //que escribiria si desea alterar la variable original eliminandole
+            //sus espacios de relleno?
+            persona = persona.Trim();
+            Console.WriteLine($"persona (original): *{persona}*");
+            Console.WriteLine($"Longitud de persona (original): {persona.Length}");
+            //note que aqui si quedo afectada la variable original
+
+            string bebida = "     Coca Cola 3 Litros       ";
+            //Ejercicio: imprima la variable bebida, sin relleno de espacios,
+            //en mayusculas y sin alterar la variable original usando una
+            //sola instruccion.
+            Console.WriteLine(bebida.Trim().ToUpper()); //forma 1
+            Console.WriteLine(bebida.ToUpper().Trim()); //forma 2
+            //lo anterior es ejecucion de metodos en cascada
+
+            //Concatenar char a String
+            string taxi = "Toyota Rav4 2018";
+            //concatenar char a string durante la impresion (no afecta string original)
+            Console.WriteLine(taxi+'X');
+            Console.WriteLine($"taxi (original): {taxi}");
+
+            //concatenar char a String afectando la variable original:
+            taxi = taxi + 'S';
+            Console.WriteLine($"taxi (original): {taxi}");
+
+            //concatenar varios char a un string afectando variable original
+            string alguien = "Filomeno Colinas";
+            alguien = alguien + 'Q' + 'W' + 'E';
+            Console.WriteLine($"alguien (original): {alguien}");
+
+            //lo anterior deja de ser practico, si va a concatenar
+            //varios char mejor concatene un solo string
+            string proveedor = "Gerardo Portillo";
+            proveedor = proveedor + "QWE";
+            Console.WriteLine($"proveedor (original): {proveedor}");
+
+            //tambien puede llegar a suceder que el char que va a concatenar
+            //este dentro de otra variable
+            char c1 = 'X';
+            string cliente = "Estebancito Maravilla";
+            cliente = cliente + c1;
+            Console.WriteLine($"cliente (original): {cliente}");
+
+            //tambien puede usar el operador de incremento
+            string pet = "Tinieblo";
+            pet += 'X';
+            Console.WriteLine($"pet (original): {pet}");
+
+            //si va usar el operador de incremento no se recomienda
+            //concatenar varios char:
+            string empresa = "Repuestos del Atlantico";
+            empresa += 'Q' + 'W' + 'E';
+            Console.WriteLine($"empresa (original): {empresa}");
+
+            //pero si le funcion con el string completo
+            string corporacion = "Capsule Corp.";
+            corporacion += "QWE";
+            Console.WriteLine($"corporacion (original): {corporacion}");
         }
     }
 }

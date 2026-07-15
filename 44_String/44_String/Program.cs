@@ -46,7 +46,7 @@
             string str = verdura + " " + color2;
             //tambien puede usar el operador de incremento para concatenar String
             string calidad = "PREMIUM";
-            str += " "+calidad;
+            str += " " + calidad;
             Console.WriteLine(str);
 
             //otra forma de concatenar es utilizando el interpolador $
@@ -113,7 +113,7 @@
             string s6 = "Honduras";
             Console.WriteLine($"El valor de s6 es: {s6}");
             Console.WriteLine($"Primer caracter de s6: {s6[0]}");
-            Console.WriteLine($"Ultimo caracter de s6: {s6[s6.Length-1]}");
+            Console.WriteLine($"Ultimo caracter de s6: {s6[s6.Length - 1]}");
             Console.WriteLine($"Ultimo caracter de s6: {s6[7]}");
             Console.WriteLine($"Caracter en posicion 4 de s6: {s6[4]}");
             Console.WriteLine($"Penultimo caracter de s6: {s6[s6.Length - 2]}");
@@ -124,7 +124,7 @@
             string platillo = "Baleada con todo";
             /*Haga un programa que imprima cada caracter de platillo
              en una nueva linea*/
-            for(int i = 0; i < platillo.Length; i++)
+            for (int i = 0; i < platillo.Length; i++)
             {
                 Console.WriteLine(platillo[i]);
             }
@@ -187,7 +187,7 @@
             //Concatenar char a String
             string taxi = "Toyota Rav4 2018";
             //concatenar char a string durante la impresion (no afecta string original)
-            Console.WriteLine(taxi+'X');
+            Console.WriteLine(taxi + 'X');
             Console.WriteLine($"taxi (original): {taxi}");
 
             //concatenar char a String afectando la variable original:
@@ -227,6 +227,55 @@
             string corporacion = "Capsule Corp.";
             corporacion += "QWE";
             Console.WriteLine($"corporacion (original): {corporacion}");
+
+            /*Haga un programa con una nueva variable string en la cual va a copiar
+            cada caracter de la variable empleado, si encuentra un espacio en blanco
+            lo va reemplazar por un guion bajo en la variable copia.
+            Al terminar va a imprimir la variable copia.
+            
+            -> Se prohibe usar metodos como Replace o cualquier otro metodo de reemplazo.
+
+            ejemplo, para la varaible empleado que tengo arriba la impresion quedaria:
+
+            Gerardo_Josue_Portillo*/
+            string empleado = "Gerardo Josue Portillo";
+            string copia = "";
+
+            //forma 1: usando if convencionales
+            for (int i = 0; i < empleado.Length; i++)
+            {
+                if (empleado[i] == ' ') //si el caracter actual es un espacio
+                    copia = copia + '_'; //lo que se concatena a copia es guion bajo
+                else
+                    copia = copia + empleado[i]; //sino se concatena a copia el caracter i
+            }
+            Console.WriteLine(copia);
+
+            //forma 2: usando el operador ternario
+            copia = "";
+            for (int i = 0; i < empleado.Length; i++)
+            {
+                copia = copia + (empleado[i] == ' ' ? '_' : empleado[i]);
+            }
+
+            /*Operador Ternario
+            Retorna el resultado de evaluar una o varias condiciones.
+            Dicho resultado puede tener dos posibilidades:
+            a) el resultado a retornar si se cumple la condicion
+            b) el resultado a retornar si NO se cumple la condicion
+            -> IMPORTANTE: cada uno de los posibles resultaods debe de ser
+                           del mismo tipo de dato.*/
+            //ejemplos:
+            float venta = 1000;
+            bool pagaImpuesto = true;
+            //si paga impuesto se muestra el valor de la venta mas el 15%
+            //si no solo imprime el valor de la venta.
+            Console.WriteLine($"Valor a pagar: {(pagaImpuesto == true ? venta * 1.15f : venta)}");
+
+            //asignar el valor mayor por medio de un ternario
+            int a = 5, b = 9;
+            int mayor = ( a >= b ? a : b );
+            Console.WriteLine($"mayor: {mayor}");
         }
     }
 }

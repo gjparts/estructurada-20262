@@ -1,0 +1,15 @@
+P:\Programas UNAH\2026-2\Programacion Estructurada\45_String\45_String\bin\Debug\net9.0\45_String.exe
+P:\Programas UNAH\2026-2\Programacion Estructurada\45_String\45_String\bin\Debug\net9.0\45_String.deps.json
+P:\Programas UNAH\2026-2\Programacion Estructurada\45_String\45_String\bin\Debug\net9.0\45_String.runtimeconfig.json
+P:\Programas UNAH\2026-2\Programacion Estructurada\45_String\45_String\bin\Debug\net9.0\45_String.dll
+P:\Programas UNAH\2026-2\Programacion Estructurada\45_String\45_String\bin\Debug\net9.0\45_String.pdb
+P:\Programas UNAH\2026-2\Programacion Estructurada\45_String\45_String\obj\Debug\net9.0\45_String.GeneratedMSBuildEditorConfig.editorconfig
+P:\Programas UNAH\2026-2\Programacion Estructurada\45_String\45_String\obj\Debug\net9.0\45_String.AssemblyInfoInputs.cache
+P:\Programas UNAH\2026-2\Programacion Estructurada\45_String\45_String\obj\Debug\net9.0\45_String.AssemblyInfo.cs
+P:\Programas UNAH\2026-2\Programacion Estructurada\45_String\45_String\obj\Debug\net9.0\45_String.csproj.CoreCompileInputs.cache
+P:\Programas UNAH\2026-2\Programacion Estructurada\45_String\45_String\obj\Debug\net9.0\45_String.sourcelink.json
+P:\Programas UNAH\2026-2\Programacion Estructurada\45_String\45_String\obj\Debug\net9.0\45_String.dll
+P:\Programas UNAH\2026-2\Programacion Estructurada\45_String\45_String\obj\Debug\net9.0\refint\45_String.dll
+P:\Programas UNAH\2026-2\Programacion Estructurada\45_String\45_String\obj\Debug\net9.0\45_String.pdb
+P:\Programas UNAH\2026-2\Programacion Estructurada\45_String\45_String\obj\Debug\net9.0\45_String.genruntimeconfig.cache
+P:\Programas UNAH\2026-2\Programacion Estructurada\45_String\45_String\obj\Debug\net9.0\ref\45_String.dll
